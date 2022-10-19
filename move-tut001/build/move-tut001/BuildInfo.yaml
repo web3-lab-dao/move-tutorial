@@ -1,0 +1,21 @@
+---
+compiled_package_info:
+  package_name: move-tut001
+  address_alias_instantiation:
+    std: "00000000000000000000000000000001"
+    web3lab: "00000000000000000000000000000002"
+  source_digest: D1B3967326D29C59F4ED8A1CA488034B5D6B278BA30C89475A72C9C49CF20C39
+  build_flags:
+    dev_mode: false
+    test_mode: false
+    generate_docs: false
+    generate_abis: false
+    install_dir: ~
+    force_recompilation: false
+    additional_named_addresses: {}
+    architecture: ~
+    fetch_deps_only: false
+    skip_fetch_latest_git_deps: false
+dependencies:
+  - MoveStdlib
+  - Web3Lab

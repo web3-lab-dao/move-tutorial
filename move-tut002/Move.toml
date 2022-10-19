@@ -1,0 +1,9 @@
+[package]
+name = "move-tut002"
+version = "0.0.1"
+
+[dependencies]
+MoveStdlib = { local = "deps/move-stdlib" }
+
+[addresses]
+web3lab = "0x069"

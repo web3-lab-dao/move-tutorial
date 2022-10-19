@@ -7,6 +7,15 @@ version = "0.0.1"
 MoveStdlib = { local = "deps/move-stdlib" }
 Web3Lab = { local = "deps/web3lab" }
 
+[dev-dependencies]
+#MoveStdlib = { git = "https://github.com/move-language/move.git", subdir = "language/move-stdlib", rev = "main" }
+MoveStdlib = { local = "deps/move-stdlib" }
+Web3Lab = { local = "deps/web3lab" }
+
 [addresses]
 std =  "0x1"
 web3lab = "0x02"
+
+[dev-addresses]
+std =  "0x11"
+web3lab = "0x12"

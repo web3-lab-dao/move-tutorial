@@ -8,3 +8,9 @@ MoveStdlib = { local = "../move-stdlib" }
 [addresses]
 std =  "0x1"
 web3lab = "0x2"
+
+[dev-addresses]
+std =  "0x11"
+web3lab = "0x12"
+
+
