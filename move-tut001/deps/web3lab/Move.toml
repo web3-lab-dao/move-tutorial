@@ -1,0 +1,10 @@
+[package]
+name = "Web3Lab"
+version = "1.0.0"
+
+[dependencies]
+MoveStdlib = { local = "../move-stdlib" }
+
+[addresses]
+std =  "0x1"
+web3lab = "0x2"
