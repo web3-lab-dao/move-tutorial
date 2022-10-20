@@ -18,4 +18,9 @@ module web3lab::Test001 {
         Resource::push(addr, 800u64);
         assert!(Resource::getSize(addr) == 1, 1000);
     }
+
+    #[test]
+    fun case02(){
+        Resource::testCopyResource();
+    }
 }
