@@ -1,12 +1,13 @@
-# move-tutorial
+# Run example in Aptos
 
-Quickly learning Move togeather.
-
-  - base Move syntax
-  - essential Move concepts
-  - tooling Move: package, test, sandbox, deploy
-  - using SUI framework
-  - using Aptos framework
+## Step run
+```
+./create_local_account.sh
+./build.sh
+./test.sh
+./publish.sh
+./interact.sh
+```
   
  Refers:
- - Awesome-move: https://github.com/MystenLabs/awesome-move
+ - https://aptos.dev/tutorials/first-move-module
