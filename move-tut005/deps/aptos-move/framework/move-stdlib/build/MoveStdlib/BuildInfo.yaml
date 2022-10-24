@@ -1,0 +1,18 @@
+---
+compiled_package_info:
+  package_name: MoveStdlib
+  address_alias_instantiation:
+    std: "0000000000000000000000000000000000000000000000000000000000000001"
+  source_digest: 60785A7E9953BCBDA13A33EA19B86F7040FC411F67DDBC2BB4A59C6FDDADC37D
+  build_flags:
+    dev_mode: false
+    test_mode: false
+    generate_docs: false
+    generate_abis: true
+    install_dir: ~
+    force_recompilation: false
+    additional_named_addresses: {}
+    architecture: ~
+    fetch_deps_only: false
+    fetch_latest_git_deps: false
+dependencies: []
