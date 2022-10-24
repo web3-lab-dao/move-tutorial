@@ -1,0 +1,31 @@
+[package]
+name = "aptos-aggregator"
+version = "0.1.0"
+authors = ["Aptos Labs <opensource@aptoslabs.com>"]
+description = "Aggregator sources for the Aptos blockchain"
+repository = "https://github.com/aptos-labs/aptos-core"
+homepage = "https://aptoslabs.com"
+license = "Apache-2.0"
+publish = false
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0.57"
+bcs = { git = "https://github.com/aptos-labs/bcs", rev = "2cde3e8446c460cb17b0c1d6bac7e27e964ac169" }
+better_any = "0.1.1"
+once_cell = "1.10.0"
+smallvec = "1.8.0"
+
+aptos-crypto = { path = "../../crates/aptos-crypto" }
+aptos-state-view = { path = "../../storage/state-view" }
+aptos-types = { path = "../../types" }
+move-binary-format = { git = "https://github.com/move-language/move", rev = "6a32284d6e04ea5bfa5919df9aac2ccb3ffa010e" }
+
+move-core-types = { git = "https://github.com/move-language/move", rev = "6a32284d6e04ea5bfa5919df9aac2ccb3ffa010e", features = ["address32"] }
+move-table-extension = { git = "https://github.com/move-language/move", rev = "6a32284d6e04ea5bfa5919df9aac2ccb3ffa010e" }
+
+[dev-dependencies]
+claims = "0.7"
+
+[features]
+default = []
