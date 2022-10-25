@@ -1,4 +1,4 @@
-module web3lab::HotPotato {
+module web3lab::PatternHotPotato {
     use std::signer;
     use std::debug;
 
@@ -20,6 +20,7 @@ module web3lab::HotPotato {
     }
 
     ///can't be stored in global, or copied or droped!
+    /// the only way is to consume it!
     public fun payReceipt<T>(bill: Receipt<T>){
         let Receipt<T> {amount, owner} = bill;
     }
