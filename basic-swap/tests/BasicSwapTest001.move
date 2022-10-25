@@ -1,5 +1,5 @@
 #[test_only]
-module web3lab::BasicCoinTest001 {
+module web3lab::BasicSwapTest001 {
     use std::debug;
     use std::signer;
 
