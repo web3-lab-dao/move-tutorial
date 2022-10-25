@@ -1,6 +1,6 @@
 # move-tutorial
 
-Quickly learning Move togeather.
+Quickly learning Move together.
 
   - base Move syntax
   - essential Move concepts
