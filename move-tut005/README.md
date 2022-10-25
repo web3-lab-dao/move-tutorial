@@ -9,10 +9,10 @@
 
 
 Example in macos
-- Download and extract to the folder /Users/tuencns/.local/bin/aptos
-- Add /Users/tuencns/.local/bin/aptos to profile file ~/.bash_profile 
+- Download and extract to the folder $HOME/.local/bin/aptos
+- Add $HOME/.local/bin/aptos to profile file ~/.bash_profile 
 ```
-export PATH="/Applications/CMake.app/Contents/bin":"/Users/tuencns/.local/bin":"/Users/tuencns/.local/bin/aptos":"$PATH"
+export PATH="/Applications/CMake.app/Contents/bin":"$HOME/.local/bin":"$HOME/.local/bin/aptos":"$PATH"
 . "$HOME/.cargo/env"
 ```
 
