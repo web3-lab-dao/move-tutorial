@@ -1,0 +1,20 @@
+---
+compiled_package_info:
+  package_name: BasicCoin001
+  address_alias_instantiation:
+    std: "00000000000000000000000000000001"
+    web3lab: "00000000000000000000000000000069"
+  source_digest: 13536BE9CC457305952B7D440C16D28EC4BE0BD4470ACE429128116949141664
+  build_flags:
+    dev_mode: false
+    test_mode: false
+    generate_docs: false
+    generate_abis: false
+    install_dir: ~
+    force_recompilation: false
+    additional_named_addresses: {}
+    architecture: ~
+    fetch_deps_only: false
+    skip_fetch_latest_git_deps: false
+dependencies:
+  - MoveStdlib
