@@ -1,0 +1,12 @@
+[package]
+name = "BasicCoin"
+version = "0.0.1"
+
+[dependencies]
+#MoveStdlib = { git = "https://github.com/move-language/move.git", subdir = "language/move-stdlib", rev = "main" }
+MoveStdlib = { local = "deps/move-stdlib" }
+
+
+[addresses]
+web3lab = "0x02"
+
