@@ -1,0 +1,9 @@
+[package]
+name = "BasicCoin001"
+version = "0.1.0"
+
+[dependencies]
+MoveStdlib = { local = "../deps/move-stdlib" }
+
+[addresses]
+web3lab = "0x069"
