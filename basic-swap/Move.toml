@@ -1,0 +1,14 @@
+[package]
+name = "BasicSwap"
+version = "0.1.0"
+
+[dependencies]
+MoveStdlib = { local = "../deps/move-stdlib" }
+BasicCoin001 = { local = "../basic-coin" }
+
+[addresses]
+web3lab = "0x069"
+CoinSwap = "0xC5"
+BasicCoin = "0xBC"
+GoldCoin = "0x9C"
+SilverCoin = "0x5C"

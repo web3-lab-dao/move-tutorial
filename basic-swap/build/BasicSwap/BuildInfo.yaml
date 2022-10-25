@@ -1,0 +1,25 @@
+---
+compiled_package_info:
+  package_name: BasicSwap
+  address_alias_instantiation:
+    BasicCoin: 000000000000000000000000000000bc
+    CoinSwap: 000000000000000000000000000000c5
+    GoldCoin: 0000000000000000000000000000009c
+    SilverCoin: 0000000000000000000000000000005c
+    std: "00000000000000000000000000000001"
+    web3lab: "00000000000000000000000000000069"
+  source_digest: 6E042DD962F90BE4052367FB138FA6CB7562F6F9A6690BF3CF784AF71C42C792
+  build_flags:
+    dev_mode: false
+    test_mode: false
+    generate_docs: false
+    generate_abis: false
+    install_dir: ~
+    force_recompilation: false
+    additional_named_addresses: {}
+    architecture: ~
+    fetch_deps_only: false
+    skip_fetch_latest_git_deps: false
+dependencies:
+  - BasicCoin001
+  - MoveStdlib
