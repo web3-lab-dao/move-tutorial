@@ -3,8 +3,10 @@
 Quickly learning Move together.
 
   - base Move syntax
-  - essential Move concepts
+  - essential Move concepts/patterns
   - tooling Move: package, test, sandbox, deploy
+  - basic-coin
+  - basic-swap
   - using SUI framework
   - using Aptos framework
   
