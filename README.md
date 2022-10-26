@@ -1,4 +1,4 @@
-# move-tutorial
+# Move-tutorial
 
 Quickly learning Move together.
 
