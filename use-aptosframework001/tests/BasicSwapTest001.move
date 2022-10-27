@@ -1,5 +1,6 @@
 #[test_only]
-module w3lab::BasicCoinTest001 {
+module web3lab::BasicSwapTest001 {
+    use std::debug;
     use std::signer;
 
     #[test(account = @0xC0FFEE)]

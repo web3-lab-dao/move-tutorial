@@ -3,10 +3,9 @@ name = "BasicCoin"
 version = "0.0.1"
 
 [dependencies]
-#MoveStdlib = { git = "https://github.com/move-language/move.git", subdir = "language/move-stdlib", rev = "main" }
-MoveStdlib = { local = "deps/move-stdlib" }
+MoveStdlib = { local = "../move-stdlib" }
 
 
 [addresses]
-web3lab = "0x02"
+web3lab = "0x16066e8be0527197be13a04ea7c5995ccb411a4c2c7447a9927e0c66056b5802"
 

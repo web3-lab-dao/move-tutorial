@@ -3,7 +3,7 @@ name = "MoveTut003"
 version = "0.1.0"
 
 [dependencies]
-MoveStdlib = { local = "deps/move-stdlib" }
+MoveStdlib = { local = "../move-stdlib" }
 
 [addresses]
-web3lab = "0x069"
+web3lab = "78e22e000988664b454111b59c80945f12e096892953a1b57f514854906bc1c2"

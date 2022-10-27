@@ -1,4 +1,4 @@
-module web3lab::BasicCoin {
+module w3lab::BasicCoin {
     use std::signer;
 
     /// Error codes
@@ -57,6 +57,7 @@ module web3lab::BasicCoin {
     }
 
 
+    /// internal methods
     fun withdraw<CoinType>(addr: address, amount: u64) : Coin<CoinType> acquires Balance {
         let balance = balance_of<CoinType>(addr);
         assert!(balance >= amount, EINSUFFICIENT_BALANCE);
@@ -72,5 +73,4 @@ module web3lab::BasicCoin {
         let Coin { value } = check;
         *balance_ref = balance + value;
     }
-
 }

@@ -1,0 +1,6 @@
+[package]
+name = "MoveStdlib"
+version = "1.5.0"
+
+[addresses]
+std = "0x78e22e000988664b454111b59c80945f12e096892953a1b57f514854906bc1c2"

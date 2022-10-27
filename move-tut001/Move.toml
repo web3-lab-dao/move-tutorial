@@ -1,21 +1,11 @@
 [package]
 name = "MoveTut001"
 version = "0.0.1"
+upgrade_policy = "compatible"
 
 [dependencies]
-#MoveStdlib = { git = "https://github.com/move-language/move.git", subdir = "language/move-stdlib", rev = "main" }
-MoveStdlib = { local = "deps/move-stdlib" }
-Web3Lab = { local = "deps/web3lab" }
-
-[dev-dependencies]
-#MoveStdlib = { git = "https://github.com/move-language/move.git", subdir = "language/move-stdlib", rev = "main" }
-MoveStdlib = { local = "deps/move-stdlib" }
-Web3Lab = { local = "deps/web3lab" }
+MoveStdlib = { local = "../move-stdlib" }
 
 [addresses]
-std =  "0x1"
-web3lab = "0x02"
-
-[dev-addresses]
-std =  "0x11"
-web3lab = "0x12"
+std =  "0x78e22e000988664b454111b59c80945f12e096892953a1b57f514854906bc1c2"
+web3lab = "0x78e22e000988664b454111b59c80945f12e096892953a1b57f514854906bc1c2"
