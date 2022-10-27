@@ -1,12 +1,9 @@
 [package]
-name = "astro01"
-version = "0.0.0"
+name = "MoveTut004"
+version = "0.1.0"
 
 [dependencies.MoveStdlib]
-git = "https://github.com/MystenLabs/sui.git"
-subdir = "crates/sui-framework/deps/move-stdlib"
-rev = "main"
+local = "../move-stdlib"
 
 [addresses]
-std =  "0x16066e8be0527197be13a04ea7c5995ccb411a4c2c7447a9927e0c66056b5802"
-MYADDR = "0xEEFF"   
+MYADDR = "0xEEFF"
