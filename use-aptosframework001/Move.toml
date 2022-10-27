@@ -3,10 +3,12 @@ name = "BasicSwap"
 version = "0.1.0"
 upgrade_policy = "compatible"
 
-[dependencies]
-MoveStdlib = { local = "../../aptos-core/aptos-move/framework/move-stdlib" }
-BasicCoin001 = { local = "../basic-coin" }
+[dependencies.BasicCoin001]
+local = "../basic-coin"
+
+[dependencies.MoveStdlib]
+local = "../move-stdlib"
 
 [addresses]
-web3lab = "0x16066e8be0527197be13a04ea7c5995ccb411a4c2c7447a9927e0c66056b5802"
-CoinSwap = "0x16066e8be0527197be13a04ea7c5995ccb411a4c2c7447a9927e0c66056b5802"
+web3lab = "0x4247110ad8a97ee048756065975e592732ab746af2a757f285a9966da381d90b"
+CoinSwap = "0x4247110ad8a97ee048756065975e592732ab746af2a757f285a9966da381d90b"

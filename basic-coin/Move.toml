@@ -11,6 +11,10 @@ git = "https://github.com/aptos-labs/aptos-core.git"
 rev = "main"
 subdir = "aptos-move/framework/aptos-stdlib"
 
+[dependencies.AptosStdlib]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "main"
+subdir = "aptos-move/framework/aptos-stdlib"
+
 [addresses]
 w3lab="0x16066e8be0527197be13a04ea7c5995ccb411a4c2c7447a9927e0c66056b5802"
-std=""
