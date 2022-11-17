@@ -1,0 +1,13 @@
+[package]
+name = 'NineCoin'
+version = '1.0.0'
+upgrade_policy = "immutable"
+
+[addresses]
+nine_coin = "65736b72a1227a547c734ad3b25df4e5091a3cf8af10a376ef40d063bf8b5117"
+
+[dev-dependencies.MoveStdlib]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "a2a3bf79b68823287f962bded2abfaefc688e71c"
+subdir = "aptos-move/framework/move-stdlib"
+

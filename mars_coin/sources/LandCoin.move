@@ -1,1 +1,0 @@
-module MarsLand::LandCoin {}
