@@ -1,9 +1,12 @@
 [package]
-name = "MarsLand"
+name = "MarsLand2"
 version = "0.0.1"
+upgrade_policy = "compatible"
 
 [addresses]
-MarsLand = "0x4247110ad8a97ee048756065975e592732ab746af2a757f285a9966da381d90b"
+TestMint = "0x80"
+marsland = "0x4247110ad8a97ee048756065975e592732ab746af2a757f285a9966da381d90b"
+
 
 [dependencies.AptosFramework]
 git = "https://github.com/aptos-labs/aptos-core.git"
