@@ -1,0 +1,18 @@
+---
+compiled_package_info:
+  package_name: NineCoin
+  address_alias_instantiation:
+    nine_coin: 65736b72a1227a547c734ad3b25df4e5091a3cf8af10a376ef40d063bf8b5117
+  source_digest: 888FE26711E829F5547BF72817B27879F4ED4A08C9557A912CBEE89265B3EE9C
+  build_flags:
+    dev_mode: false
+    test_mode: false
+    generate_docs: false
+    generate_abis: false
+    install_dir: ~
+    force_recompilation: false
+    additional_named_addresses: {}
+    architecture: ~
+    fetch_deps_only: false
+    fetch_latest_git_deps: false
+dependencies: []
