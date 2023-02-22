@@ -1,5 +1,5 @@
 #[test_only]
-module sui_simple::Color {
+module sui_simple::color_test {
     use sui::object;
     use sui::tx_context;
     use sui_simple::color_object::{Self, ColorObject};

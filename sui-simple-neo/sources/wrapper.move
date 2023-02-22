@@ -28,7 +28,7 @@ module sui_simple::trust_swap {
         style: u8
     }
 
-    struct ObjectWraper has key {
+    struct ObjectWrapper has key {
         id: UID,
         original_owner: address,
         to_swap: Object,
@@ -50,7 +50,7 @@ module sui_simple::trust_swap {
 
     public entry fun request_swap(object: Object, fee: Coin<SUI>, service_addresas: address, ctx: &mut TxContext){
         assert!(coin::value(&fee) >= MIN_FEE, 0);
-        let wrapper = ObjectWraper{
+        let wrapper = ObjectWrapper {
             id: object::new(ctx),
             original_owner: tx_context::sender(ctx),
             to_swap: object,
@@ -59,18 +59,18 @@ module sui_simple::trust_swap {
         transfer::transfer(wrapper, service_addresas);
     }
 
-    public entry fun execute_swap(wrapper1: ObjectWraper, wrapper2: ObjectWraper, ctx: &mut TxContext){
+    public entry fun execute_swap(wrapper1: ObjectWrapper, wrapper2: ObjectWrapper, ctx: &mut TxContext){
         assert!(wrapper1.to_swap.scarcity == wrapper2.to_swap.scarcity, 0);
         assert!(wrapper1.to_swap.style != wrapper2.to_swap.style, 0);
 
-        let ObjectWraper{
+        let ObjectWrapper {
             id: id1,
             original_owner: original_owner1,
             to_swap: object1,
             fee: fee1
         } = wrapper1;
 
-        let ObjectWraper{
+        let ObjectWrapper {
             id: id2,
             original_owner: original_owner2,
             to_swap: object2,

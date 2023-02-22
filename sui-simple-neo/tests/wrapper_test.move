@@ -1,10 +1,10 @@
 #[test_only]
-module sui_simple::Wrapper {
+module sui_simple::wrapper_test {
 
-    use sui_simple::trust_swap;
-    use sui::object;
-    use sui::test_scenario::ctx;
-    use sui_simple::trust_swap::Object;
+    // use sui_simple::trust_swap;
+    // use sui::object;
+    // use sui::test_scenario::ctx;
+    // use sui_simple::trust_swap::Object;
 
     // #[test]
     // fun test_request_swap(){
