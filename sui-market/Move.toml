@@ -1,0 +1,10 @@
+[package]
+name = "sui_poc1"
+version = "0.0.1"
+
+[dependencies]
+Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework", rev = "testnet" }
+
+[addresses]
+sui_poc =  "0x0"
+sui =  "0x0000000000000000000000000000000000000002"
