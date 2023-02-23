@@ -1,0 +1,35 @@
+[package]
+name = 'NineCoinInit'
+version = '1.0.0'
+upgrade_policy = "immutable"
+
+[addresses]
+std = "0x1"
+aptos_std = "0x1"
+aptos_framework = "0x1"
+aptos_token = "0x3"
+nine_coin_init = "e3cd31797b9b36ce3cb9617871fb0fa1187d1381aff01b49d72c87f56e27238e"
+liquidswap = "e3cd31797b9b36ce3cb9617871fb0fa1187d1381aff01b49d72c87f56e27238e"
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "a2a3bf79b68823287f962bded2abfaefc688e71c"
+subdir = "aptos-move/framework/aptos-framework"
+
+[dev-dependencies.MoveStdlib]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "a2a3bf79b68823287f962bded2abfaefc688e71c"
+subdir = "aptos-move/framework/move-stdlib"
+
+[dev-dependencies.AptosStdlib]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "a2a3bf79b68823287f962bded2abfaefc688e71c"
+subdir = "aptos-move/framework/aptos-stdlib"
+
+[dependencies.UQ64x64]
+git = "https://github.com/pontem-network/UQ64x64.git"
+rev = "v0.3.7"
+
+[dependencies.U256]
+git = "https://github.com/pontem-network/U256.git"
+rev = "v0.3.8"

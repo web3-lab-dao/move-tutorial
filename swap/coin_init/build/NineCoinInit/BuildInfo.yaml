@@ -1,0 +1,29 @@
+---
+compiled_package_info:
+  package_name: NineCoinInit
+  address_alias_instantiation:
+    Extensions: "0000000000000000000000000000000000000000000000000000000000000001"
+    aptos_framework: "0000000000000000000000000000000000000000000000000000000000000001"
+    aptos_std: "0000000000000000000000000000000000000000000000000000000000000001"
+    aptos_token: "0000000000000000000000000000000000000000000000000000000000000003"
+    core_resources: 000000000000000000000000000000000000000000000000000000000a550c18
+    liquidswap: e3cd31797b9b36ce3cb9617871fb0fa1187d1381aff01b49d72c87f56e27238e
+    nine_coin_init: e3cd31797b9b36ce3cb9617871fb0fa1187d1381aff01b49d72c87f56e27238e
+    std: "0000000000000000000000000000000000000000000000000000000000000001"
+    vm_reserved: "0000000000000000000000000000000000000000000000000000000000000000"
+  source_digest: 1D287A6E8A8250807CC4DA670D8B5A920F72383249979B06DC9A6CC5ADB4C73E
+  build_flags:
+    dev_mode: false
+    test_mode: false
+    generate_docs: false
+    generate_abis: false
+    install_dir: ~
+    force_recompilation: false
+    additional_named_addresses: {}
+    architecture: ~
+    fetch_deps_only: false
+    fetch_latest_git_deps: false
+dependencies:
+  - AptosFramework
+  - AptosStdlib
+  - MoveStdlib

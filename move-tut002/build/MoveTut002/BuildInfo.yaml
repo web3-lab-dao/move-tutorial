@@ -1,0 +1,20 @@
+---
+compiled_package_info:
+  package_name: MoveTut002
+  address_alias_instantiation:
+    std: 78e22e000988664b454111b59c80945f12e096892953a1b57f514854906bc1c2
+    web3lab: 78e22e000988664b454111b59c80945f12e096892953a1b57f514854906bc1c2
+  source_digest: 1F388015CEADD7423353DB0039164046D770E96DF8BDE8FB0B5F7F764AF7C086
+  build_flags:
+    dev_mode: false
+    test_mode: false
+    generate_docs: false
+    generate_abis: false
+    install_dir: ~
+    force_recompilation: false
+    additional_named_addresses: {}
+    architecture: ~
+    fetch_deps_only: false
+    fetch_latest_git_deps: false
+dependencies:
+  - MoveStdlib

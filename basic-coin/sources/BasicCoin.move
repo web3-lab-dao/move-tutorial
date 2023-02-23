@@ -12,6 +12,11 @@ module w3lab::BasicCoin {
         value: u64
     }
 
+
+    struct USDT {}
+
+    struct BTC {}
+
     struct Balance<phantom CoinType> has key {
         coin: Coin<CoinType>
     }
@@ -34,6 +39,7 @@ module w3lab::BasicCoin {
     /// module that owns `CoinType` can decide the burning policy.
     public fun burn<CoinType: drop>(burn_addr: address, amount: u64, _witness: CoinType) acquires Balance {
         // Withdraw `amount` of tokens from mint_addr's balance
+        // unpack
         let Coin { value: _ } = withdraw<CoinType>(burn_addr, amount);
     }
 

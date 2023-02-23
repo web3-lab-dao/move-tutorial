@@ -1,2 +1,0 @@
-#!/bin/bash
-curl https://fullnode.testnet.aptoslabs.com/v1/accounts/0x4247110ad8a97ee048756065975e592732ab746af2a757f285a9966da381d90b/resource/0x4247110ad8a97ee048756065975e592732ab746af2a757f285a9966da381d90b::message::MessageHolder
