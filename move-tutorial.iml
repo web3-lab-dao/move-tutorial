@@ -62,6 +62,7 @@
       <excludeFolder url="file://$MODULE_DIR$/data_structures/build" />
       <excludeFolder url="file://$MODULE_DIR$/aptos-framework001/build" />
       <excludeFolder url="file://$MODULE_DIR$/sui-simple-neo/build" />
+      <excludeFolder url="file://$MODULE_DIR$/sui-market/build" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
